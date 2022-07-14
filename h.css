@@ -1,0 +1,79 @@
+
+ ul{
+            display: none;
+        }
+        #checkbox{
+            opacity: 0;
+        }
+        #checkbox:checked + ul {
+            
+            display: block;
+        }
+
+       .cont
+        {
+        	justify-content: right;
+        }
+ }
+.navbar     	
+{
+	height: 50px;
+	width: 600px;
+	background: green;
+	float: right;
+}
+ .navbar
+
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height:50px;
+	width:100%;
+	font-size: 1.5em;
+}
+ .navbar li
+{
+	height: 50px;
+	width: 100px;
+	float: left;
+	color: red;
+	text-align: center;
+	line-height: 45px;
+}
+ .navbar li:hover
+{
+	background: lightblue;
+	color: darkblue;
+}
+.down
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+	background: magenta;
+	color: black;
+
+
+}
+.navbar li:hover .down
+
+{
+	display: block;}
+
+/*.demo
+	{
+		height: 200px;
+		width: 200px;
+		background: magenta;
+	}*/
+	@media screen and (min-width: 400px) and (max-width: 800px){
+		.demo
+		{
+			height: 200px;
+		width: 200px;
+			background: yellow;
+			border-radius: 50%;
+		}
+	}
